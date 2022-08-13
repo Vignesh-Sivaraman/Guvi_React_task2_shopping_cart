@@ -17,6 +17,7 @@ function App() {
       currency: "₹",
       image:
         "https://us.123rf.com/450wm/archangel80889/archangel808891911/archangel80889191100711/135858939-planet-mercury-on-a-black-background-.jpg?ver=6",
+      rating: 2,
     },
     {
       id: 2,
@@ -25,6 +26,7 @@ function App() {
       currency: "₹",
       image:
         "https://us.123rf.com/450wm/guardiano007/guardiano0071703/guardiano007170300032/75244834-highly-detailed-venus-planet-on-black-elements-of-this-image-furnished-by-nasa.jpg?ver=6",
+      rating: 2,
     },
     {
       id: 3,
@@ -33,6 +35,7 @@ function App() {
       currency: "₹",
       image:
         "https://us.123rf.com/450wm/larichev89/larichev891904/larichev89190400049/121873809-view-of-blue-planet-earth-in-space-3d-rendering-elements-of-this-image-furnished-by-nasa.jpg?ver=6",
+      rating: 5,
     },
     {
       id: 4,
@@ -41,6 +44,7 @@ function App() {
       currency: "₹",
       image:
         "https://upload.wikimedia.org/wikipedia/commons/0/02/OSIRIS_Mars_true_color.jpg",
+      rating: 4,
     },
     {
       id: 5,
@@ -49,6 +53,7 @@ function App() {
       currency: "₹",
       image:
         "https://us.123rf.com/450wm/elenaphotos21/elenaphotos211212/elenaphotos21121200034/16801296-jupiter-planet-in-the-universe-surrounded-with-plenty-of-stars.jpg?ver=6",
+      rating: 5,
     },
     {
       id: 6,
@@ -57,6 +62,7 @@ function App() {
       currency: "₹",
       image:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlSPSXhNWYteDEFnIPbnb0MCRgh81xBaUTuw&usqp=CAU",
+      rating: 4,
     },
     {
       id: 7,
@@ -64,6 +70,7 @@ function App() {
       price: 70000,
       currency: "₹",
       image: "https://stsci-opo.org/STScI-01EVT8T3KTG0YDT1C92FD9QC8R.jpg",
+      rating: 2,
     },
     {
       id: 8,
@@ -72,6 +79,7 @@ function App() {
       currency: "₹",
       image:
         "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Neptune_-_Voyager_2_%2829347980845%29_flatten_crop.jpg/640px-Neptune_-_Voyager_2_%2829347980845%29_flatten_crop.jpg",
+      rating: 2,
     },
   ];
 

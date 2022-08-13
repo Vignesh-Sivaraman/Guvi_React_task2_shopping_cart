@@ -20,6 +20,10 @@
   text-align: center;
 }
 
+.rating {
+  margin: 5% 0% !important;
+}
+
 @media (max-width: 768px) {
   .product {
     max-height: 60vh !important;

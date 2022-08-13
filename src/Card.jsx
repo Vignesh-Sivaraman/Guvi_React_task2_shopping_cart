@@ -1,5 +1,5 @@
-import React from "react";
-// import "./App.css";
+import React, { useState } from "react";
+import { Rating } from "react-simple-star-rating";
 
 function Card({ product, handleAddToCart, cartItems }) {
   return (
@@ -9,6 +9,14 @@ function Card({ product, handleAddToCart, cartItems }) {
         <div className="card-body p-4">
           <div className="text-center">
             <h5 className="fw-bolder">{product.title}</h5>
+            <div className="rating">
+              <Rating
+                emptyColor={"#f1a545"}
+                size={20}
+                iconsCount={product.rating}
+                allowHover={false}
+              ></Rating>
+            </div>
             {`${product.currency}${product.price}`}
           </div>
         </div>

@@ -3,8 +3,8 @@ import NavItems from "./NavItems";
 
 function NavItemsDrop() {
   let ItemsDrop = [
-    { title: "Popular Items", aname: "dropdown-item", cname: "" },
-    { title: "New Arrivals", aname: "dropdown-item", cname: "" },
+    { id: 1, title: "Popular Items", aname: "dropdown-item", cname: "" },
+    { id: 2, title: "New Arrivals", aname: "dropdown-item", cname: "" },
   ];
   return (
     <li className="nav-item dropdown">
